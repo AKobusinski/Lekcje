@@ -19,7 +19,7 @@ body{
 
 .box{
     position: relative;
-    width: 150px;
+    width: 160px;
     height: 120px;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@ body{
 
 img{
     height: 100px;
-    width: 150px;
+    width: 160px;
 }
 
 .box:hover{
@@ -140,4 +140,10 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 800px){
+    body{
+        background-image: url(background2.jpg);
+    }
 }
