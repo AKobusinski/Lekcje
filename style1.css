@@ -34,7 +34,7 @@ img{
 }
 
 .box:hover{
-    height: 200px;
+    height: 205px;
 }
 .box .imgbox{
     position: absolute;
