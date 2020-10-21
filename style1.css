@@ -102,4 +102,28 @@ img{
     bottom: 10px;
     height: 82px;
     background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.box:hover .content{
+    opacity: 1;
+}
+
+.box .content h2{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.bot .content span{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 1px;
 }
