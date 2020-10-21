@@ -9,7 +9,7 @@
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-wrap: wrap;
     height: 100vh;
     background-image: url(background.jpg);
@@ -86,12 +86,17 @@ img{
 
 .box:nth-child(2):before,
 .box:nth-child(2):after{
-    background: linear-gradient(235deg, #ff005e,#010615,#fbff00);
+    background: linear-gradient(235deg, #ff005e,#010615,#89ff00);
 }
 
 .box:nth-child(3):before,
 .box:nth-child(3):after{
-    background: linear-gradient(235deg, #772aff,#010615,#2196f3);
+    background: linear-gradient(235deg, #4B0082,#010615,#DC143C);
+}
+
+.box:nth-child(4):before,
+.box:nth-child(4):after{
+    background: linear-gradient(235deg, #00bcd4,#010615#4B0082);
 }
 
 
