@@ -25,7 +25,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 40px;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 img{
@@ -48,8 +48,8 @@ img{
 
 .box .imgbox img{
     max-width: 100%;
-    opacity: 0.1;
-    transition: 0.5s;
+    opacity: 0.2;
+    transition: 0.7s;
 }
 
 .box:hover .imgbox img{
@@ -76,7 +76,7 @@ img{
     bottom: -2px;
     background: #fff;
     z-index: -1;
-    filter: blur(40px);
+    filter: blur(50px);
 }
 
 .box:before,
@@ -96,7 +96,7 @@ img{
 
 .box:nth-child(4):before,
 .box:nth-child(4):after{
-    background: linear-gradient(235deg, #00bcd4,#010615#4B0082);
+    background: linear-gradient(235deg, #00bcd4,#010615,#4B0082);
 }
 
 
@@ -112,7 +112,7 @@ img{
     justify-content: center;
     align-items: center;
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 .box:hover .content{
@@ -124,12 +124,20 @@ img{
     color: #fff;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .bot .content span{
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
     font-weight: 200;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
